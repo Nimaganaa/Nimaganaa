@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="91" tests="5" failures="0" errors="0">
+   <testsuite name="Login" tests="5" failures="0" errors="0" time="91" timestamp="2018-07-12 14:34:02" hostname="Dell-Notebook - DESKTOP-GUIOM97" id="Test Suites/Android Client/Login">
+      <properties>
+         <property name="deviceName" value="samsung SM-G950F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Login\\20180712_143401"/>
+         <property name="logFiles" value="C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Login\\20180712_143401\\appium.log, C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Login\\20180712_143401\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell-Notebook - DESKTOP-GUIOM97"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G950F"/>
+         <property name="hostAddress" value="192.168.20.117"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12171c74a0d80805"/>
+         <property name="deviceName" value="samsung SM-G950F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Android Client/First Time User/Login/Verify Click on Login button" classname="Test Cases/Android Client/First Time User/Login/Verify Click on Login button" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:34:03 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Login/Verify Click on Login button: Test Cases/Android Client/First Time User/Login/Verify Click on Login button
+
+2018-07-12 14:34:03 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\Project\Apk\snapcart-9.13.1-develop-staging.apk'
+
+2018-07-12 14:34:53 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Apk\snapcart-9.13.1-develop-staging.apk'
+
+2018-07-12 14:34:53 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:34:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:34:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:34:56 - [TEST_STEP][PASSED] - verifyElementExist: Element 'Object Repository/Android Client/First Time User/Login/field_login_email' is exist
+
+2018-07-12 14:34:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:34:57 - [MESSAGE][PASSED] - Element 'Object Repository/Android Client/First Time User/Login/field_login_email' is exist
+
+2018-07-12 14:34:57 - [TEST_STEP][NOT_RUN] - closeApplication: NOT_RUN: closeApplication
+
+2018-07-12 14:34:57 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email" classname="Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:34:57 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email: Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email
+
+2018-07-12 14:34:57 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-12 14:34:57 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-12 14:34:57 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:34:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:34:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:34:58 - [TEST_STEP][PASSED] - setText: Text 'invalid' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:34:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:00 - [MESSAGE][PASSED] - Text 'invalid' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:00 - [TEST_STEP][PASSED] - setText: Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:03 - [MESSAGE][PASSED] - Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:03 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:07 - [TEST_STEP][NOT_RUN] - closeApplication: NOT_RUN: closeApplication
+
+2018-07-12 14:35:07 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password" classname="Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:35:07 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password: Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password
+
+2018-07-12 14:35:08 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-12 14:35:08 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-12 14:35:08 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:11 - [TEST_STEP][PASSED] - setText: Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:13 - [MESSAGE][PASSED] - Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:13 - [TEST_STEP][PASSED] - setText: Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:15 - [MESSAGE][PASSED] - Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:15 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:17 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:17 - [TEST_STEP][NOT_RUN] - closeApplication: NOT_RUN: closeApplication
+
+2018-07-12 14:35:17 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality" classname="Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:35:17 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality: Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality
+
+2018-07-12 14:35:17 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-12 14:35:17 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-12 14:35:17 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:19 - [TEST_STEP][PASSED] - setText: Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:21 - [MESSAGE][PASSED] - Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:21 - [TEST_STEP][PASSED] - setText: Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:23 - [MESSAGE][PASSED] - Text '123123' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:23 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_showPassword'
+
+2018-07-12 14:35:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_showPassword'
+
+2018-07-12 14:35:25 - [TEST_STEP][PASSED] - verifyElementText: Actual text and expected text of test object 'Object Repository/Android Client/First Time User/Login/field_login_password' are matched.
+
+2018-07-12 14:35:26 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Android Client/First Time User/Login/field_login_password' are matched.
+
+2018-07-12 14:35:26 - [TEST_STEP][NOT_RUN] - closeApplication: NOT_RUN: closeApplication
+
+2018-07-12 14:35:26 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials" classname="Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:35:26 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials: Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials
+
+2018-07-12 14:35:26 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-12 14:35:26 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-12 14:35:26 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login'
+
+2018-07-12 14:35:27 - [TEST_STEP][PASSED] - setText: Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:29 - [MESSAGE][PASSED] - Text 'akundamiggi@gmail.com' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_email'
+
+2018-07-12 14:35:29 - [TEST_STEP][PASSED] - setText: Text 'invalid' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:31 - [MESSAGE][PASSED] - Text 'invalid' has been set to element 'Object Repository/Android Client/First Time User/Login/field_login_password'
+
+2018-07-12 14:35:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:35:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Login/button_login_login'
+
+2018-07-12 14:35:33 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-12 14:35:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 14:34:02 - [TEST_SUITE][PASSED] - Login: Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

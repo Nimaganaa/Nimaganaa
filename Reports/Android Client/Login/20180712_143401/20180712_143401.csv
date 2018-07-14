@@ -1,0 +1,41 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Login,,,2018-07-12 14:34:02,2018-07-12 14:35:34,1m - 31.434s,PASSED
+,,,,,,
+Test Cases/Android Client/First Time User/Login/Verify Click on Login button,,,2018-07-12 14:34:03,2018-07-12 14:34:57,54.098s,PASSED
+startApplication,,,2018-07-12 14:34:03,2018-07-12 14:34:53,50.086s,PASSED
+tap,,,2018-07-12 14:34:53,2018-07-12 14:34:56,3.140s,PASSED
+verifyElementExist,,,2018-07-12 14:34:56,2018-07-12 14:34:57,0.565s,PASSED
+closeApplication,,,2018-07-12 14:34:57,2018-07-12 14:34:57,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email,,,2018-07-12 14:34:57,2018-07-12 14:35:07,10.868s,PASSED
+startApplication,,,2018-07-12 14:34:57,2018-07-12 14:34:57,0.002s,NOT_RUN
+tap,,,2018-07-12 14:34:57,2018-07-12 14:34:58,1.391s,PASSED
+setText,,,2018-07-12 14:34:58,2018-07-12 14:35:00,1.765s,PASSED
+setText,,,2018-07-12 14:35:00,2018-07-12 14:35:03,3.225s,PASSED
+tap,,,2018-07-12 14:35:03,2018-07-12 14:35:07,4.302s,PASSED
+closeApplication,,,2018-07-12 14:35:07,2018-07-12 14:35:07,0.002s,NOT_RUN
+,,,,,,
+Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password,,,2018-07-12 14:35:07,2018-07-12 14:35:17,9.489s,PASSED
+startApplication,,,2018-07-12 14:35:08,2018-07-12 14:35:08,0.002s,NOT_RUN
+tap,,,2018-07-12 14:35:08,2018-07-12 14:35:11,3.615s,PASSED
+setText,,,2018-07-12 14:35:11,2018-07-12 14:35:13,1.471s,PASSED
+setText,,,2018-07-12 14:35:13,2018-07-12 14:35:15,2.189s,PASSED
+tap,,,2018-07-12 14:35:15,2018-07-12 14:35:17,2.068s,PASSED
+closeApplication,,,2018-07-12 14:35:17,2018-07-12 14:35:17,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality,,,2018-07-12 14:35:17,2018-07-12 14:35:26,8.553s,PASSED
+startApplication,,,2018-07-12 14:35:17,2018-07-12 14:35:17,0.002s,NOT_RUN
+tap,,,2018-07-12 14:35:17,2018-07-12 14:35:19,1.815s,PASSED
+setText,,,2018-07-12 14:35:19,2018-07-12 14:35:21,2.204s,PASSED
+setText,,,2018-07-12 14:35:21,2018-07-12 14:35:23,2.207s,PASSED
+tap,,,2018-07-12 14:35:23,2018-07-12 14:35:25,1.741s,PASSED
+verifyElementText,,,2018-07-12 14:35:25,2018-07-12 14:35:26,0.443s,PASSED
+closeApplication,,,2018-07-12 14:35:26,2018-07-12 14:35:26,0.001s,NOT_RUN
+,,,,,,
+Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials,,,2018-07-12 14:35:26,2018-07-12 14:35:34,7.989s,PASSED
+startApplication,,,2018-07-12 14:35:26,2018-07-12 14:35:26,0.001s,NOT_RUN
+tap,,,2018-07-12 14:35:26,2018-07-12 14:35:27,1.028s,PASSED
+setText,,,2018-07-12 14:35:27,2018-07-12 14:35:29,2.158s,PASSED
+setText,,,2018-07-12 14:35:29,2018-07-12 14:35:31,2.239s,PASSED
+tap,,,2018-07-12 14:35:31,2018-07-12 14:35:33,1.761s,PASSED
+closeApplication,,,2018-07-12 14:35:33,2018-07-12 14:35:34,0.679s,PASSED

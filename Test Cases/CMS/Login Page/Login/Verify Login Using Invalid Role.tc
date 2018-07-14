@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login Using Invalid Role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>977387c5-101b-477e-8033-a37e4aca1477</testCaseGuid>
+   <variable>
+      <defaultValue>'Silahkan masuk ke aplikasi untuk mengakses'</defaultValue>
+      <description></description>
+      <id>b1bc1f0d-c415-419b-a823-2364f282b26e</id>
+      <masked>false</masked>
+      <name>notif_fail</name>
+   </variable>
+</TestCaseEntity>

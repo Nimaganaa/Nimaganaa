@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login Using Invalid Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5e7be0e0-6b14-4d05-a37e-3da03d5a53fa</testCaseGuid>
+   <variable>
+      <defaultValue>'Silahkan masuk ke aplikasi untuk mengakses'</defaultValue>
+      <description></description>
+      <id>4eb4a3e5-a2d1-4241-8485-7fb2b65a2a05</id>
+      <masked>false</masked>
+      <name>notif_fail</name>
+   </variable>
+</TestCaseEntity>

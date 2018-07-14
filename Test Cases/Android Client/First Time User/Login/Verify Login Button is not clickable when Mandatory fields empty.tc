@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Login Button is not clickable when Mandatory fields empty</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>5f16a9e2-f44c-4814-8f15-76e70ccf5528</testCaseGuid>
+</TestCaseEntity>

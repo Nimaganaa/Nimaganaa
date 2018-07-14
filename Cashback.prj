@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Cashback</description>
+   <name>Cashback</name>
+   <tag></tag>
+   <UUID>3fcf7c93-0440-4ab6-af01-b697e129aa76</UUID>
+   <migratedVersion>5.4.0</migratedVersion>
+   <pageLoadTimeout>0</pageLoadTimeout>
+</Project>

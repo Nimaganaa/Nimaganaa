@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-07-09T17:59:36</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>a267f120-50ef-47cb-84b3-8a87252b50cf</testSuiteGuid>
+   <testCaseLink>
+      <guid>61117e3e-4f82-418c-b954-c2c86bb0f6e7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/Login Page/Login/Verify Login Using Invalid Password</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>48c22bd2-275b-47ed-a502-8d8f2dc94b02</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d5165d10-4f90-41c2-a741-431ab4cc08ff</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/Login Page/Login/Verify Login Using Invalid Username</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>4eb4a3e5-a2d1-4241-8485-7fb2b65a2a05</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>f092075b-d6c4-4d1b-8f8d-bca8a6762a56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/Login Page/Login/Verify Login Using Invalid Role</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b1bc1f0d-c415-419b-a823-2364f282b26e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>01cfb9c6-de44-48d9-bba5-8b613eb114f3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/CMS/Login Page/Login/Verify Login Using Valid Username and Password</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ceeff6f6-2c8b-4c11-8fc7-415163820ca3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

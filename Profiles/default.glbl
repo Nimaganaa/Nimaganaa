@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Snapcart Staging URL</description>
+      <initValue>'https://stag-dashboard.snapcart.asia/login'</initValue>
+      <name>stag_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'user_admin_1@snapcart.asia'</initValue>
+      <name>user_cms_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>pass_cms_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid'</initValue>
+      <name>user_client_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid'</initValue>
+      <name>pass_client_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid@gmail.com'</initValue>
+      <name>email_client_invalid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'invalid'</initValue>
+      <name>email_client_invalid_noHost</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'akundamiggi@gmail.com'</initValue>
+      <name>email_client_valid</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Define APK Location</description>
+      <initValue>'D:\\Project\\Apk\\snapcart-9.13.1-develop-staging.apk'</initValue>
+      <name>apk_location</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123123'</initValue>
+      <name>pass_client_valid</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

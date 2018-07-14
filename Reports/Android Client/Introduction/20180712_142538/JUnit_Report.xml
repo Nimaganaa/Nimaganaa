@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Introduction" time="61" tests="2" failures="0" errors="0">
+   <testsuite name="Introduction" tests="2" failures="0" errors="0" time="61" timestamp="2018-07-12 14:25:39" hostname="Dell-Notebook - DESKTOP-GUIOM97" id="Test Suites/Android Client/Introduction">
+      <properties>
+         <property name="deviceName" value="samsung SM-G950F (Android 8.0.0)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Introduction\\20180712_142538"/>
+         <property name="logFiles" value="C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Introduction\\20180712_142538\\appium.log, C:\\Users\\Dell-Notebook\\Katalon Studio\\Cashback\\Reports\\Android Client\\Introduction\\20180712_142538\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dell-Notebook - DESKTOP-GUIOM97"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.8.1"/>
+         <property name="deviceModel" value="SM-G950F"/>
+         <property name="hostAddress" value="192.168.20.117"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="ce12171c74a0d80805"/>
+         <property name="deviceName" value="samsung SM-G950F (Android 8.0.0)"/>
+         <property name="deviceOSVersion" value="8.0.0"/>
+      </properties>
+      <testcase name="Test Cases/Android Client/First Time User/Introduction/Verify Select Region Page" classname="Test Cases/Android Client/First Time User/Introduction/Verify Select Region Page" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:25:40 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Introduction/Verify Select Region Page: Test Cases/Android Client/First Time User/Introduction/Verify Select Region Page
+
+2018-07-12 14:25:40 - [TEST_STEP][PASSED] - startApplication: Started app at: 'D:\Project\Apk\snapcart-9.13.1-develop-staging.apk'
+
+2018-07-12 14:26:24 - [MESSAGE][PASSED] - Started app at: 'D:\Project\Apk\snapcart-9.13.1-develop-staging.apk'
+
+2018-07-12 14:26:24 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_country'
+
+2018-07-12 14:26:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_country'
+
+2018-07-12 14:26:27 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_Indonesia'
+
+2018-07-12 14:26:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:29 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_Indonesia'
+
+2018-07-12 14:26:29 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_language'
+
+2018-07-12 14:26:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_language'
+
+2018-07-12 14:26:31 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_lang_indo'
+
+2018-07-12 14:26:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/dropdown_lang_indo'
+
+2018-07-12 14:26:32 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next'
+
+2018-07-12 14:26:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next'
+
+2018-07-12 14:26:34 - [TEST_STEP][NOT_RUN] - closeApplication: NOT_RUN: closeApplication
+
+2018-07-12 14:26:34 - [MESSAGE][NOT_RUN] - NOT_RUN: closeApplication]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Android Client/First Time User/Introduction/Verify Introduction Page" classname="Test Cases/Android Client/First Time User/Introduction/Verify Introduction Page" status="PASSED">
+         <system-out><![CDATA[2018-07-12 14:26:34 - [TEST_CASE][PASSED] - Test Cases/Android Client/First Time User/Introduction/Verify Introduction Page: Test Cases/Android Client/First Time User/Introduction/Verify Introduction Page
+
+2018-07-12 14:26:35 - [TEST_STEP][NOT_RUN] - startApplication: NOT_RUN: startApplication
+
+2018-07-12 14:26:35 - [MESSAGE][NOT_RUN] - NOT_RUN: startApplication
+
+2018-07-12 14:26:35 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next_arrow'
+
+2018-07-12 14:26:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next_arrow'
+
+2018-07-12 14:26:37 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next_arrow'
+
+2018-07-12 14:26:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_next_arrow'
+
+2018-07-12 14:26:39 - [TEST_STEP][PASSED] - tap: Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_finish'
+
+2018-07-12 14:26:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-07-12 14:26:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Android Client/First Time User/Introduction/button_finish'
+
+2018-07-12 14:26:41 - [TEST_STEP][PASSED] - closeApplication: Close app successfully
+
+2018-07-12 14:26:41 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-12 14:25:39 - [TEST_SUITE][PASSED] - Introduction: Test Cases/Android Client/First Time User/Introduction/Verify Introduction Page]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
