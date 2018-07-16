@@ -12,39 +12,39 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>bf61f5dd-437c-4f59-9553-f116c078e10c</testSuiteGuid>
    <testCaseLink>
-      <guid>96372bdb-8ed8-4442-9fa1-aef9ef15d65c</guid>
+      <guid>a693ba49-a166-4469-af95-6902a5ed88f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Click on Login button</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>68a4e226-1cd4-426c-b736-801adaa1a0a8</guid>
+      <guid>d38c935d-4b74-425a-bfe8-e5cdc4824407</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Login Button is not clickable when Mandatory fields empty</testCaseId>
+      <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Login Button is not disabled when Mandatory fields empty</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>69ea1d44-4e84-486e-8973-987d15150aff</guid>
+      <guid>74c32df5-a238-4f1a-a6bc-270029f857f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Email</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>26d82442-55ae-470d-8d19-bd87dab6e03d</guid>
+      <guid>1eba5379-9411-4fec-bcdc-f5fc53401063</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Login Using Invalid Password</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>2daf0d67-df71-40ae-9ab4-fdce92bff576</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>ff9b67ac-a4fa-4f41-a878-cdaa964f4b5c</guid>
+      <guid>c88d2140-24c9-476a-91d2-07c9c6b035e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Login Using Valid Credentials</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>484fa584-8099-43c8-a6eb-d3ff6c39c22d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Android Client/First Time User/Login/Verify Show Password Button Functionality</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

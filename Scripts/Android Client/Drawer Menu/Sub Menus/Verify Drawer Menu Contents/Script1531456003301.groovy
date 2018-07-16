@@ -25,12 +25,24 @@ Mobile.tap(findTestObject('Object Repository/Android Client/Cashback/Dashboard/b
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/text_userName'), 0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_receiptHistory'),0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_receiptHistory'), 
+    0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_cashoutHistory'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_cashoutHistory'), 
+    0)
 
-Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_activationCode'), 0)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_activationCode'), 
+    0)
 
 Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_suggestion'), 0)
 
+Mobile.verifyElementExist(findTestObject('Android Client/Drawer Menu/Sub Menus/button_helpCenter'), 0)
+
+Mobile.verifyElementExist(findTestObject('Android Client/Drawer Menu/Sub Menus/button_profile'), 0)
+
+Mobile.verifyElementExist(findTestObject('Android Client/Drawer Menu/Sub Menus/button_settings'), 0)
+
+Mobile.verifyElementExist(findTestObject('Android Client/Drawer Menu/Sub Menus/button_logout'), 0)
+
 Mobile.closeApplication()
+
