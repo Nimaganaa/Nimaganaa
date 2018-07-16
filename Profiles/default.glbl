@@ -54,4 +54,14 @@
       <initValue>'123123'</initValue>
       <name>pass_client_valid</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Budi'</initValue>
+      <name>frontname_client</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Doremi'</initValue>
+      <name>lastname_client</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

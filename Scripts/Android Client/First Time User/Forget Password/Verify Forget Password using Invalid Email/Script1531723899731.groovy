@@ -21,23 +21,12 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.apk_location, false)
 
-Mobile.tap(findTestObject('Android Client/First Time User/Register/button_register'), 0)
+Mobile.tap(findTestObject('Android Client/First Time User/Login/button_login'), 0)
 
-Mobile.hideKeyboard()
+Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Login/button_forgetPassword'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Android Client/First Time User/Register/field_frontName'), 'Budi', 0)
+Mobile.sendKeys(findTestObject('Object Repository/Android Client/First Time User/Forget Password/field_email'), GlobalVariable.email_client_invalid)
 
-Mobile.setText(findTestObject('Object Repository/Android Client/First Time User/Register/field_lastName'), 'Doremi', 0)
 
-Mobile.setText(findTestObject('Object Repository/Android Client/First Time User/Register/field_email'), GlobalVariable.email_client_valid, 0)
-
-Mobile.setText(findTestObject('Object Repository/Android Client/First Time User/Register/field_password'), GlobalVariable.pass_client_valid, 0)
-
-Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Register/checkbox_agree'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Register/button_register'), 0)
-
-Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/First Time User/Register/button_register'), 0)
 
 Mobile.closeApplication()
-
