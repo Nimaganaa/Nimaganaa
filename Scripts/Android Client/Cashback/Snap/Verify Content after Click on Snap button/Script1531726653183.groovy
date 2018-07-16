@@ -21,11 +21,17 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.apk_location, false)
 
-Mobile.tap(findTestObject('Android Client/First Time User/Login/button_login'), 0)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Android Client/Cashback/Snap/button_snap'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Login/button_forgetPassword'), 0)
+Mobile.tap(findTestObject('Object Repository/Android Client/Cashback/Snap/button_snap'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/Android Client/First Time User/Forget Password/field_email'), GlobalVariable.email_client_valid)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Cashback/Snap/text_snapDesc'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Cashback/Snap/text_snapDesc'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Cashback/Snap/button_QRSnap'), 0)
+
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Cashback/Snap/button_receiptSnap'), 0)
 
 Mobile.closeApplication()
 

@@ -21,11 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 
 Mobile.startApplication(GlobalVariable.apk_location, false)
 
-Mobile.tap(findTestObject('Android Client/First Time User/Login/button_login'), 0)
+Mobile.tap(findTestObject('Object Repository/Android Client/Cashback/Dashboard/button_drawerMenu'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Login/button_forgetPassword'), 0)
+Mobile.tap(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_userProfile'), 0)
 
-Mobile.sendKeys(findTestObject('Object Repository/Android Client/First Time User/Forget Password/field_email'), GlobalVariable.email_client_valid)
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Profile/image_profile'), 0)
 
 Mobile.closeApplication()
-
