@@ -27,6 +27,4 @@ Mobile.tap(findTestObject('Object Repository/Android Client/First Time User/Logi
 
 Mobile.sendKeys(findTestObject('Object Repository/Android Client/First Time User/Forget Password/field_email'), GlobalVariable.email_client_invalid)
 
-
-
 Mobile.closeApplication()
