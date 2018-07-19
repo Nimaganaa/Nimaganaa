@@ -1,21 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Dropdown Content</description>
-   <name>dropdown_content</name>
+   <description></description>
+   <name>dropdown_content_admin</name>
    <tag></tag>
-   <elementGuidId>f11eb489-5e24-4555-a8ae-c1ab530aed49</elementGuidId>
+   <elementGuidId>bf2a42fd-1d48-4425-9d05-095efdac0358</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -25,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;type&quot;]</value>
+      <value>//*[@id=&quot;type&quot;]/option[2]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -19,17 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser(GlobalVariable.stag_url)
+WebUI.openBrowser(GlobalVariable.stag_url)
 
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__username'), GlobalVariable.user_cms_valid)
+WebUI.click(findTestObject('CMS/Login/Login Page/button_forgot_password'))
 
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__password'), GlobalVariable.pass_cms_valid)
+WebUI.setText(findTestObject('Object Repository/CMS/Login/Forget Password/field_emailForgotPass'), GlobalVariable.email_client_invalid)
 
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content'))
+WebUI.click(findTestObject('Object Repository/CMS/Login/Forget Password/button_resetPassword'))
 
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content_admin'))
-
-WebUI.click(findTestObject('CMS/Login/Login Page/button_Login'))
+WebUI.verifyElementText(findTestObject('CMS/Login/Forget Password/text_failedEmailNotif'), notif_fail)
 
 WebUI.closeBrowser()
 

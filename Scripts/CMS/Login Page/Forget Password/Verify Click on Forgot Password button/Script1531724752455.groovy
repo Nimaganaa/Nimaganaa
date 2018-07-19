@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser(GlobalVariable.stag_url)
 
-WebUI.click(findTestObject('CMS/LoginPage/button_forgot_password'))
+WebUI.click(findTestObject('CMS/Login/Login Page/button_forgot_password'))
 
-WebUI.verifyTextPresent(title_forgot_pass, false)
+WebUI.verifyElementPresent(findTestObject('Object Repository/CMS/Login/Forget Password/text_resetPassTitle'), 0)
 
 WebUI.closeBrowser()
 

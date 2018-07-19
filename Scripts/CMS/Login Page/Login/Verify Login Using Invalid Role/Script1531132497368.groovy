@@ -21,15 +21,15 @@ import internal.GlobalVariable as GlobalVariable
 
 not_run: WebUI.openBrowser(GlobalVariable.stag_url)
 
-WebUI.sendKeys(findTestObject('CMS/LoginPage/input__username'), GlobalVariable.user_client_invalid)
+WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__username'), GlobalVariable.user_client_invalid)
 
-WebUI.sendKeys(findTestObject('CMS/LoginPage/input__password'), GlobalVariable.pass_cms_valid)
+WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__password'), GlobalVariable.pass_cms_valid)
 
-WebUI.click(findTestObject('CMS/LoginPage/dropdown_content'))
+WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content'))
 
-WebUI.click(findTestObject('CMS/LoginPage/dropdown_content_mod'))
+WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content_mod'))
 
-WebUI.click(findTestObject('CMS/LoginPage/button_Login'))
+WebUI.click(findTestObject('CMS/Login/Login Page/button_Login'))
 
 WebUI.verifyTextPresent(notif_fail, false)
 

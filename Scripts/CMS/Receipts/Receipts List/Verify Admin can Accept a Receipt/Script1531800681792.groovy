@@ -19,17 +19,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser(GlobalVariable.stag_url)
+WebUI.openBrowser(GlobalVariable.stag_url)
 
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__username'), GlobalVariable.user_cms_valid)
-
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__password'), GlobalVariable.pass_cms_valid)
-
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content'))
-
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content_admin'))
-
-WebUI.click(findTestObject('CMS/Login/Login Page/button_Login'))
-
-WebUI.closeBrowser()
 

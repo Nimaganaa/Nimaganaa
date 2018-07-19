@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_authentication.exception.</name>
+   <name>text_failedEmailNotif</name>
    <tag></tag>
-   <elementGuidId>97979447-bb5c-4354-8979-359c9f117d09</elementGuidId>
+   <elementGuidId>296243e1-e49f-4767-b34a-b1cd17982a4b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,20 +11,28 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-danger</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>authentication.exception.credentials_should_not_be_null</value>
+      <value>     controller.user_not_found_by_email
+    </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;no-js&quot;]/body[@class=&quot;page-md login&quot;]/div[@class=&quot;content&quot;]/form[1]/div[@class=&quot;alert alert-danger&quot;]/span[1]</value>
+      <value>id(&quot;reset_password&quot;)/div[@class=&quot;alert alert-danger&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

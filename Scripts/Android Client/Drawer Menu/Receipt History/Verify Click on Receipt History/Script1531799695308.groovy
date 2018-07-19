@@ -19,17 +19,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-not_run: WebUI.openBrowser(GlobalVariable.stag_url)
+Mobile.startApplication(GlobalVariable.apk_location, false)
 
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__username'), GlobalVariable.user_cms_valid)
+Mobile.tap(findTestObject('Object Repository/Android Client/Cashback/Dashboard/button_drawerMenu'), 0)
 
-WebUI.sendKeys(findTestObject('CMS/Login/Login Page/input__password'), GlobalVariable.pass_cms_valid)
+Mobile.tap(findTestObject('Object Repository/Android Client/Drawer Menu/Sub Menus/button_receiptHistory'), 0)
 
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content'))
+Mobile.verifyElementExist(findTestObject('Object Repository/Android Client/Drawer Menu/Receipt History/text_receiptHistory'), 0)
 
-WebUI.click(findTestObject('CMS/Login/Login Page/dropdown_content_admin'))
-
-WebUI.click(findTestObject('CMS/Login/Login Page/button_Login'))
-
-WebUI.closeBrowser()
-
+Mobile.closeApplication()
